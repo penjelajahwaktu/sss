@@ -1,0 +1,44 @@
+tutorial lengkap
+
+# jalankan xface mining di paper space
+
+# buat accout vps gratis  untuk 6 jam 
+
+# mining lewat web mining https://miner.nimiq.com/
+
+# ttps://console.paperspace.com/login
+
+ sudo apt update
+ sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
+ sudo apt install -y tightvncserver nano net-tools
+ sudo vncserver
+ 
+sudo nano ~/.vnc/xstartup
+
+Add the following lines to the file.
+
+gnome-panel &
+gnome-settings-daemon &
+metacity &
+nautilus &
+
+sudo vncserver -kill :1
+vncserver
+
+sudo apt install novnc
+
+websockify -D --web=/usr/share/novnc/ --cert=/etc/ssl/novnc.pem 6080 localhost:5901
+
+# install chrome 
+
+sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
+
+# ubah  /usr/bin/google-chrome 
+sudo nano  /usr/bin/google-chrome    baris terakhir isi dengan 
+
+exec -a "$0" "$HERE/chrome" "$@" --no-sandbox
+
+# koneksikan vps dengan cloudflare 
+
+
