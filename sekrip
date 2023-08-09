@@ -13,13 +13,14 @@ sudo rm /var/lib/dpkg/info/udisks2.postinst
 sudo dpkg --configure udisks2
 sudo apt install xfce4 xfce4-terminal
 sudo apt install curl
+sudo apt install vim
 
  sudo apt update
  sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
  sudo apt install -y tightvncserver nano net-tools
  sudo vncserver
  
-sudo nano ~/.vnc/xstartup
+sudo vim ~/.vnc/xstartup
 
 Add the following lines to the file.
 
