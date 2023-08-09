@@ -12,7 +12,7 @@ sudo apt install udisks2
 sudo rm /var/lib/dpkg/info/udisks2.postinst
 sudo dpkg --configure udisks2
 sudo apt install xfce4 xfce4-terminal
-apt install curl
+sudo apt install curl
 
  sudo apt update
  sudo apt-get install gnome-panel gnome-settings-daemon metacity nautilus gnome-terminal
