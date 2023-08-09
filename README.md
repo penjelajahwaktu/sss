@@ -2,7 +2,7 @@
 
 sudo dpkg -i cloudflared.deb && 
 
-sudo cloudflared service install eyJhIjoiYTAyNDU4ODdkZmQ4YTc3Yjk4MWM5ZjgyOGVlYjA3NTEiLCJ0IjoiOTYxNjgxYzQtMTdiNy00OTJlLTk4ZDQtMTU1ZjA3MzNlZTM0IiwicyI6IlpUUTNNMlJtTTJJdFpqUTROQzAwT0RZMUxUaGtNek10T0RFNE9XWmhaVFUyWlRaayJ9
+sudo cloudflared service install eyJhIjoiYTAyNDU4ODdkZmQ4YTc3Yjk4MWM5ZjgyOGVlYjA3NTEiLCJ0IjoiZTc4ZGNlZjgtNDc0MS00OWRlLWExYzYtMWQxNGRjNWQxYjRiIiwicyI6Ik5EZzJNamsyT0dJdE1EWXpNUzAwTVRjM0xXSTNaR0l0Tm1JNVltSmpZelprTTJaaSJ9
 
 
 docker run -p 6070:80 -e RESOLUTION=1200x650 dorowu/ubuntu-desktop-lxde-vnc
