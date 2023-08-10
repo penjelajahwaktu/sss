@@ -2,7 +2,7 @@
 
 sudo dpkg -i cloudflared.deb && 
 
-sudo cloudflared service install eyJhIjoiYTAyNDU4ODdkZmQ4YTc3Yjk4MWM5ZjgyOGVlYjA3NTEiLCJ0IjoiNTk3MWVkOTAtOTZiYy00ODZiLWFkNmYtZTZmMmFhZTg5NDUwIiwicyI6Ik5qUmhNRFF5T0dZdE9EUTNOQzAwTkdRMkxXRm1NR1V0TkRFek9ESTNPVFZtWWpVNCJ9
+sudo cloudflared service install eyJhIjoiYTAyNDU4ODdkZmQ4YTc3Yjk4MWM5ZjgyOGVlYjA3NTEiLCJ0IjoiYTY5ODkzZjAtNzY1ZC00NTgyLTgyNDctMGY0MTVlZjVlZDhkIiwicyI6IlltUTJZV015WVRndE5qa3lPQzAwWkRCbExUa3lPVEF0WWpjMk5HTTNOekEwWm1ObCJ9
 
 docker run -p 6070:80 -e RESOLUTION=1200x650 dorowu/ubuntu-desktop-lxde-vnc
  # wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/gas && wget https://raw.githubusercontent.com/penjelajahwaktu/sss/main/script.ini && chmod +x gas && ./gas script.ini
